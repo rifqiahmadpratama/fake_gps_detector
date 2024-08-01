@@ -25,6 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace = 'dev.andiksetyawan.fake_gps_detector'
     compileSdkVersion 28
 
     sourceSets {
